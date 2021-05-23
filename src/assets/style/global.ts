@@ -3,7 +3,7 @@ import FontMontserratBold from "src/assets/fonts/Montserrat-Bold.ttf";
 import FontMontserrat from "src/assets/fonts/Montserrat-Regular.ttf";
 import FontMuli from "src/assets/fonts/Muli-Regular.ttf";
 
-const IconFontFace = css`
+const FontFace = css`
   @font-face {
     font-family: "MontserratBold";
     font-style: normal;
@@ -22,7 +22,7 @@ const IconFontFace = css`
 `;
 
 export const GlobalStyle = createGlobalStyle`
-${IconFontFace}
+${FontFace}
 
   html {
     scroll-behavior: smooth;
